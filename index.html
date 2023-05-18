@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="./style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <title>Weather app</title>
+  </head>
+  <body>
+    <main class="main">
+      <form class="search_form">
+        <input type="text" placeholder="Type in a state" class="search_box" />
+        <button type="submit">Search</button>
+      </form>
+      <div class="app_container">
+        <div class="app">
+          <div class="left_side">
+            <h1 class="temp_value">?&deg;C</h1>
+            <div class="temp_desc_container">
+              <img
+                src="http://openweathermap.org/img/wn/02d@2x.png"
+                class="temp_image weather-img"
+              />
+              <p class="temp_desc">??</p>
+            </div>
+            <hr />
+            <h3 class="details">State Name: <span class="state">?</span></h3>
+            <h3 class="details">Wind speed: <span class="speed">?</span> mph</h3>
+          </div>
+          <img
+            src="http://openweathermap.org/img/wn/02d@2x.png"
+            class="main_image weather-img"
+          />
+        </div>
+      </div>
+    </main>
+    <script src="./weather.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>
