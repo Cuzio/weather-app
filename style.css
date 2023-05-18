@@ -17,7 +17,7 @@
   z-index: 10;
   background-color: #205295;
   width: 50%;
-  height: 45vh;
+  /* height: 45vh; */
   border-radius: 1rem;
   padding: 3rem;
   margin-top: 2rem;
@@ -36,7 +36,7 @@
 
 .temp_value {
   color: #fff;
-  font-size: 6rem;
+  font-size: 4.5rem;
   font-weight: 400;
 }
 
